@@ -5,32 +5,140 @@ body
 {
     background-image: url('sky.png');
 }
+#intro
+{
+    display: flex;
+}
+#leftintro
+{
+    flex: 30%;
+    margin-top: 0;
+}
+#rightintro
+{
+    flex: 70%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0px;
+    background: rgba(0,0,0,0.2);
+
+}
+#output
+{
+    display: flex;
+    background: rgba(0,0,0,0.2); 
+}
+#leftoutput
+{
+    flex: 0 0 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#rightoutput
+{
+    flex: 0 0 80%;
+    margin-top: 10px;
+}
+a
+{
+    color: white;
+}
 p
 {
     color:white;
-    font-size:160%;
+    font-size:100%;
     font-family:verdana;
+    margin: 10px 10px 0px 10px;
 
 }
 h1
 {
     color:white;
+    background-color: black;
     text-align:center;
     font-family:verdana;
     font-size:300%;
+    padding: 0;
+    margin: 0;
+
+}
+h2
+{
+    color: white;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    font-family: verdana;
+    font-size:200%;
+    margin-top: 0;
+    padding: 0;
+}
+h3
+{
+    color: white;
+    background-color: rgb(51, 51, 51);
+    text-align: left;
+    font-family: verdana;
+    font-size:150%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+#socialsfooter
+{   
+    color: white;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    font-family: verdana;
+    font-size:100%;
 }
 </style>
 <body>
-<h1> New website coming soon!</h1>
-<p> For now, hit me up on... 
-<br><br>
-<b>Itch:</b> <a href=https://uncanny-machines.itch.io/>https://uncanny-machines.itch.io/</a>
+<h1> Uncanny Machines</h1>
+<h2> <a href=pages/DrCameronEdmond.pdf>Resume</a></h2>
+<div id="intro">
+<div id="leftintro">
+<img src="WORDS.jpg" alt="A person pointing at words projected on a wall" style="width: 500px">
+</div>
+<div id="rightintro">
+<p>Hello! You've reached Uncanny Machines, the home page of Dr Cameron Edmond. I'm a writer, researcher and game developer interested in the ways poetry, narrative and programming intersect.
+    <br><br>Currently, I am a researcher at UNSW's EPICentre, where I explore how the use of artificial intelligence 
+    and storytelling can help communication. I also make short poetry games, bots and other weird interactive things in my 
+    spare time. 
+    
+    I've also worked as a journalist and musician, writing for publications such as <i>HEAVY Music Mag</i>, <i>Ironfist</i> and <i>TheMusic.com.au</i>. I've slung bass guitar for metal bands Blacksmith and A Gentleman's Agreement. <br><br>I've dropped some of my recent/favourite works below. Check them out, or hit me up if you'd like to collaborate!
+<br><br>P.S. You matter and are doing a great job.</p>    
+</div>
+</div>
+<h3><a href=https://uncanny-machines.itch.io/the-caretaker/>The Caretaker (2020)</a></h3>
+<div id="output">
+
+<div id="leftoutput">
+    <img src="CareTaker.png" alt="A piece of text from a hypertext videogame" style="width: 300px">
+</div>
+<div id="rightoutput">
+<p>A short, unconventional Christmas tale. 
+    <br><br>
+    You are the caretaker for one of the most exclusive lodgings around, with some of the strangest guests. Check in on a business-savy alien, an architectural obsessed vampire and more as you listen to their stories and try to help them, however you can.
+</div>
+</div>
+<h3><a href=https://uncanny-machines.itch.io/platforms-dont-float/>Platforms Don't Float (2020)</a></h3>
+<div id="output">
+
+<div id="leftoutput">
+    <img src="PlatformsDont.png" alt="A piece of text from a hypertext videogame" style="width: 300px">
+</div>
+<div id="rightoutput">
+<p>Platforms Don't Float is a short "platformer" game made in Twine. How does that work? I'm still not entirely sure, or even if it does. But I had fun making it, and hope you have fun playing it, too!
 <br>
-<b>Twitter:</b> <a href=https://twitter.com/CamEdmondSpeaks>@CamEdmondSpeaks</a>
 <br>
-<b>Email:</b> cam.edmond@gmail.com
-<br><br>
-P.S. You matter and are doing a great job.
-</p>
+I originally started making this for NaNoTwiMo, but didn't really get any time that month to work on it. But hey, it is here now!    
+
+</div>
+</div>
+
+<div id="socialsfooter">
+<b><a href=https://uncanny-machines.itch.io/>Itch</a> | 
+<a href=https://twitter.com/CamEdmondSpeaks>Twitter</a> | 
+<a href="mailto:cam.edmond@gmail.com">Email</a></div>
 </body>
 </html>
