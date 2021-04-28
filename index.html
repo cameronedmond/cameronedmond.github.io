@@ -5,40 +5,55 @@
 body 
 {
     background-image: url('sky.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #intro
 {
+    background: rgba(0,0,0,0.2);
     display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    max-width: 2000px;
+    margin: auto;
 }
 #leftintro
 {
-    flex: 30%;
-    margin-top: 0;
+    flex: 300px 1;
+    padding: 0px;
+    margin-right: 0px;
 }
 #rightintro
 {
-    flex: 70%;
-    margin-top: 0;
-    margin-bottom: 0px;
+    flex: 1200px 1;
     padding: 0px;
-    background: rgba(0,0,0,0.2);
-
+    margin-left: 0px;
 }
 #output
 {
     display: flex;
-    background: rgba(0,0,0,0.2); 
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
 }
 #leftoutput
 {
-    flex: 0 0 20%;
-    margin-top: 10px;
-    margin-left: 10px;
+    flex: 400px 1;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 #rightoutput
 {
-    flex: 0 0 80%;
-    margin-top: 10px;
+    flex: 1600px 1;
+    padding: 0px;
+    margin-left: 0px;
 }
 a
 {
@@ -46,6 +61,7 @@ a
 }
 p
 {
+    flex-wrap: wrap;
     color:white;
     font-size:100%;
     font-family:verdana;
@@ -60,7 +76,9 @@ h1
     font-family:verdana;
     font-size:300%;
     padding: 0;
-    margin: 0;
+    margin: auto;
+    max-width: 2000px; 
+
 
 }
 h2
@@ -70,18 +88,28 @@ h2
     text-align: center;
     font-family: verdana;
     font-size:200%;
-    margin-top: 0;
+    margin: auto;
     padding: 0;
+    max-width: 2000px;
+}
+#headerbar
+{
+    background-color: rgb(51, 51, 51);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    max-width: 2000px; 
 }
 h3
 {
     color: white;
-    background-color: rgb(51, 51, 51);
     text-align: left;
     font-family: verdana;
     font-size:150%;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
 }
 #socialsfooter
@@ -91,6 +119,9 @@ h3
     text-align: center;
     font-family: verdana;
     font-size:100%;
+    max-width: 2000px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
 <body>
@@ -98,7 +129,7 @@ h3
 <h2> <a href=pages/DrCameronEdmond.pdf>Resume</a></h2>
 <div id="intro">
 <div id="leftintro">
-<img src="Words.png" alt="A person pointing at words projected on a wall" style="width: 99%; max-width: 600px">
+<img src="Words.png" alt="A person pointing at words projected on a wall" style='max-width: 100%'>
 </div>
 <div id="rightintro">
 <p>Hello! You've reached Uncanny Machines, the home page of Dr Cameron Edmond. I'm a writer, researcher and game developer interested in the ways poetry, narrative and programming intersect.
@@ -110,11 +141,13 @@ h3
 <br><br>P.S. You matter and are doing a great job.</p>    
 </div>
 </div>
+<div id="headerbar">
 <h3><a href=https://uncanny-machines.itch.io/the-caretaker/>The Caretaker (2020)</a></h3>
+</div>
 <div id="output">
 
 <div id="leftoutput">
-    <img src="CareTaker.png" alt="A piece of text from a hypertext videogame" style="width: 300px">
+    <img src="CareTaker.png" alt="A piece of text from a hypertext videogame" style='max-width: 100%'>
 </div>
 <div id="rightoutput">
 <p>A short, unconventional Christmas tale. 
@@ -122,11 +155,13 @@ h3
     You are the caretaker for one of the most exclusive lodgings around, with some of the strangest guests. Check in on a business-savy alien, an architectural obsessed vampire and more as you listen to their stories and try to help them, however you can.
 </div>
 </div>
+<div id="headerbar">
 <h3><a href=https://uncanny-machines.itch.io/platforms-dont-float/>Platforms Don't Float (2020)</a></h3>
+</div>
 <div id="output">
 
 <div id="leftoutput">
-    <img src="PlatformsDont.png" alt="A piece of text from a hypertext videogame" style="width: 300px">
+    <img src="PlatformsDont.png" alt="A piece of text from a hypertext videogame" style='max-width: 100%'>
 </div>
 <div id="rightoutput">
 <p>Platforms Don't Float is a short "platformer" game made in Twine. How does that work? I'm still not entirely sure, or even if it does. But I had fun making it, and hope you have fun playing it, too!
