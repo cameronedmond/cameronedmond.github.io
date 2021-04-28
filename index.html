@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body 
 {
@@ -10,39 +9,55 @@ body
     padding: 0px;
     margin: 0px;
 }
+#background
+{
+    background: rgba(0,0,0,0.1);
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
 #intro
 {
-    background: rgba(0,0,0,0.2);
     display: flex;
     flex-wrap: wrap;
     padding: 0px;
-    margin: 0px;
-    justify-content: center;
-    max-width: 1080px;
-    margin: auto;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 #leftintro
 {
     flex: 200px 1;
     padding: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 #rightintro
 {
     flex: 2;
     padding: 0px;
     margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 #output
 {
-    background: rgba(0,0,0,0.2);
     display: flex;
     flex-wrap: wrap;
     padding: 0px;
-    margin: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     justify-content: center;
-    max-width: 1080px;
-    margin: auto;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #leftoutput
 {
@@ -51,6 +66,7 @@ body
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+    justify-content: center;
 }
 #rightoutput
 {
@@ -58,6 +74,7 @@ body
     padding: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
+    justify-content: center;
 }
 a
 {
@@ -71,7 +88,7 @@ p
     font-family:verdana;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: 10px;
     padding: 0px;
 
@@ -85,7 +102,7 @@ h1
     font-size:300%;
     padding: 0;
     margin: auto;
-    max-width: 1080px;
+    max-width: 1500px;
 
 
 }
@@ -98,7 +115,7 @@ h2
     font-size:200%;
     margin: auto;
     padding: 0;
-    max-width: 1080px;
+    max-width: 1500px;
 }
 #headerbar
 {
@@ -108,7 +125,7 @@ h2
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
-    max-width: 1080px;
+    max-width: 1500px;
 }
 h3
 {
@@ -128,23 +145,23 @@ h3
     text-align: center;
     font-family: verdana;
     font-size:100%;
-    max-width: 1080px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
 </style>
 <body>
+<div id='background'>
 <h1> Uncanny Machines</h1>
 <h2> <a href=pages/DrCameronEdmond.pdf>Resume</a></h2>
-<div id="intro"><div id="leftintro"><img src="Words.png" alt="A person pointing at words projected on a wall" style='max-width: 99%'></div><div id="rightintro">
+<div id="intro"><div id="leftintro"><img src="Words.png" alt="A person pointing at words projected on a wall" style='max-width: 99%; margin: 0px; padding: 0px'></div><div id="rightintro">
 <p>Hello! You've reached Uncanny Machines, the home page of Dr Cameron Edmond. I'm a writer, researcher and game developer interested in the ways poetry, narrative and programming intersect.
     <br><br>Currently, I am a researcher at UNSW's EPICentre, where I explore how the use of artificial intelligence 
     and storytelling can help communication. I also make short poetry games, bots and other weird interactive things in my 
     spare time. 
     
     I've also worked as a journalist and musician, writing for publications such as <i>HEAVY Music Mag</i>, <i>Ironfist</i> and <i>TheMusic.com.au</i>. I've slung bass guitar for metal bands Blacksmith and A Gentleman's Agreement. <br><br>I've dropped some of my recent/favourite works below. Check them out, or hit me up if you'd like to collaborate!
-<br><br>P.S. You matter and are doing a great job.</p>    
-</div></div><div id="headerbar">
+<br><br>P.S. You matter and are doing a great job.</p></div></div><div id="headerbar">
 <h3><a href=https://uncanny-machines.itch.io/the-caretaker/>The Caretaker (2020)</a></h3>
 </div><div id="output">
 <div id="leftoutput">
@@ -157,14 +174,12 @@ h3
 <h3><a href=https://uncanny-machines.itch.io/platforms-dont-float/>Platforms Don't Float (2020)</a></h3>
 </div><div id="output">
 <div id="leftoutput">
-    <img src="PlatformsDont.png" alt="A piece of text from a hypertext videogame" style='max-width: 99%'>
-</div><div id="rightoutput">
-<p>Platforms Don't Float is a short "platformer" game made in Twine. How does that work? I'm still not entirely sure, or even if it does. But I had fun making it, and hope you have fun playing it, too!
+    <img src="PlatformsDont.png" alt="A piece of text from a hypertext videogame" style='max-width: 99%'></div><div id="rightoutput"><p>Platforms Don't Float is a short "platformer" game made in Twine. How does that work? I'm still not entirely sure, or even if it does. But I had fun making it, and hope you have fun playing it, too!
 <br>
 <br>
 I originally started making this for NaNoTwiMo, but didn't really get any time that month to work on it. But hey, it is here now!</div></div><div id="socialsfooter">
 <b><a href=https://uncanny-machines.itch.io/>Itch</a> | 
 <a href=https://twitter.com/CamEdmondSpeaks>Twitter</a> | 
-<a href="mailto:cam.edmond@gmail.com">Email</a></div>
+<a href="mailto:cam.edmond@gmail.com">Email</a></div></div>
 </body>
 </html>
